@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Aare Majutus</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <style>
+            footer {
+            text-align: center;   
+        }
+
+        </style>
+    </head>
+    <body>
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
+            <div class="container px-4 px-lg-5">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto py-4 py-lg-0">
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="index.html">Pealeht</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="price.html">Hinnakiri</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="products.html">Tooted</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="blog.html">Blogi</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="login.html">Logi Sisse</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="contact.html">Kontakt</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Page Header-->
+        <header class="masthead" style="background-image: url(images/background_image.jpg)">
+            <div class="container position-relative px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <div class="site-heading">
+                            <h1>Aare Majutus</h1>
+                            <span class="subheading">Sinu kodu eemal kodust.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Main Content-->
+        <div class="container px-4 px-lg-5">
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-md-10 col-lg-8 col-xl-7">
+                    <!-- Post preview-->
+                    <div class="post-preview">
+                            <p><b>Viibides maalilises piirilinnas Valgas, pakume Teile meeldivat majutuskogemust ning võimalust puhata turvalises ja rahulikus üksikelamus.</b></p>
+
+                            <p><b>Meie külaliste käsutuses on valikus nii 2- kui ka 4-toalised numbritoad. Lisaks pakume võimalust lisavoodi kasutamiseks vastavalt Teie soovidele.</b></p>
+
+                            <p><b>Kodumajutuse territooriumil on võimalus telkida, kus Teid ootavad väligrill ja tualettruumid.</b></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" style="width: 530px; height: 300px; margin-left: auto; margin-right: auto; ;" >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/tuba1.jpg" class="d-block w-100" alt="..." style="height: 300px;">
+              </div>
+              <div class="carousel-item">
+                <img src="images/tuba2.jpg" class="d-block w-100" alt="..." style="height: 300px;">
+              </div>
+              <div class="carousel-item">
+                <img src="images/söök.jpg" class="d-block w-100" alt="..." style="height: 300px;">
+              </div>
+              <div class="carousel-item">
+                <img src="images/wc.jpg" class="d-block w-100" alt="..." style="height: 300px;">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    
+    
+                   
+          <footer>
+            <p>&copy; 2024 Aare Kodumajutus. All rights reserved.</p>
+        </footer>
+    
+        <!-- Bootstrap core JS-->
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+
+    <script>
+        // Activate the carousel
+        var myCarousel = document.getElementById('carouselExampleAutoplaying');
+        var carousel = new bootstrap.Carousel(myCarousel, {
+            interval: 2000, // Adjust this value to set the interval time in milliseconds
+            wrap: true, // Enable looping of slides
+            pause: 'hover' // Pause on mouse hover
+        });
+    </script>
+</html>
